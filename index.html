@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shortcut Hub</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+  }
+  h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.15s ease;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #0078ff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .card a:hover {
+    background: #005fcc;
+  }
+</style>
+</head>
+<body>
+
+<h1>My Shortcut Hub</h1>
+
+<!-- ===================== REMOTE SERVICES ===================== -->
+
+<h2>Remote Services</h2>
+<div class="grid">
+
+  <div class="card">
+    <div class="icon">📡</div>
+    <h3>Sonarr</h3>
+    <a href="https://nl5167.dediseedbox.com:15852/" target="_blank">OPEN</a>
+  </div>
+
+  <div class="card">
+    <div class="icon">🎬</div>
+    <h3>Radarr</h3>
+    <a href="https://nl5167.dediseedbox.com:42624/" target="_blank">OPEN</a>
+  </div>
+
+  <div class="card">
+    <div class="icon">📥</div>
+    <h3>SabNZB</h3>
+    <a href="https://nl5167.dediseedbox.com:40781/sabnzbd" target="_blank">OPEN</a>
+  </div>
+
+  <div class="card">
+    <div class="icon">🔽</div>
+    <h3>qBittorrent</h3>
+    <a href="https://nl5167.dediseedbox.com:14932/" target="_blank">OPEN</a>
+  </div>
+
+  <div class="card">
+    <div class="icon">📮</div>
+    <h3>Ombi</h3>
+    <a href="https://nl5167.dediseedbox.com:26840/" target="_blank">OPEN</a>
+  </div>
+
+  <div class="card">
+    <div class="icon">📺</div>
+    <h3>Jellyfin</h3>
+    <a href="https://nl5167.dediseedbox.com:53066/" target="_blank">OPEN</a>
+  </div>
+
+  <div class="card">
+    <div class="icon">📊</div>
+    <h3>Jellystat</h3>
+    <a href="https://nl5167.dediseedbox.com:53214/" target="_blank">OPEN</a>
+  </div>
+
+</div>
+
+<!-- ===================== LOCAL SERVICES ===================== -->
+
+<h2>Local Services</h2>
+<div class="grid">
+
+  <div class="card">
+    <div class="icon">💾</div>
+    <h3>NAS</h3>
+    <a href="http://192.168.188.123:9999" target="_blank">OPEN</a>
+  </div>
+
+  <div class="card">
+    <div class="icon">🟢</div>
+    <h3>Pi-hole</h3>
+    <a href="http://192.168.188.150/admin/" target="_blank">OPEN</a>
+  </div>
+
+  <div class="card">
+    <div class="icon">📚</div>
+    <h3>Shelfmark</h3>
+    <a href="http://bangarang.local:8084/" target="_blank">OPEN</a>
+  </div>
+
+</div>
+
+</body>
+</html>
